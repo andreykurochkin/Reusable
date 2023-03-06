@@ -1,7 +1,10 @@
 'use strict';
 
-const phonebook = null;
+const phonebook = {
+  a: 123,
+  b: 3,
+};
 
-const findPhoneByName = null;
+const findPhoneByName = (name) => phonebook()[name];
 
 module.exports = { phonebook, findPhoneByName };
